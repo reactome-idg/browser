@@ -1,3 +1,7 @@
+# Do not merge this branch with master. This branch contains IDG specific changes.
+This branch removes the analysis button on the top launcher and removes all species besides human.
+This branch also replaces all logos with the Reactome-IDG logos
+
 [<img src=https://user-images.githubusercontent.com/6883670/31999264-976dfb86-b98a-11e7-9432-0316345a72ea.png height=75 />](https://reactome.org)
 
 # Pathway Browser Portal
