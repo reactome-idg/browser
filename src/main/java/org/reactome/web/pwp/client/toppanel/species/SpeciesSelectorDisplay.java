@@ -41,9 +41,10 @@ public class SpeciesSelectorDisplay extends FlowPanel implements SpeciesSelector
     @Override
     public void setData(List<Species> speciesList) {
         this.species.clear(); //Not really needed, but just in case :)
-        for (Species species : speciesList) {
-            this.species.addItem(species.getDisplayName(), species.getDbId().toString());
-        }
+        this.species.addItem("Homo Sapiens");													//change made for idg projects. Revert for production
+//        for (Species species : speciesList) {
+//            this.species.addItem(species.getDisplayName(), species.getDbId().toString());
+//        }
     }
 
     @Override

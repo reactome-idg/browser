@@ -194,13 +194,13 @@ public class AppController implements BrowserReadyHandler {
         new StructuresTabPresenter(this.eventBus, structures);
         DETAILS_TABS.add(structures);
 
-        ExpressionTab.Display expression = new ExpressionTabDisplay();
-        new ExpressionTabPresenter(this.eventBus, expression);
-        DETAILS_TABS.add(expression);
-
-        AnalysisTab.Display analysis = new AnalysisTabDisplay();
-        new AnalysisTabPresenter(this.eventBus, analysis);
-        DETAILS_TABS.add(analysis);
+//        ExpressionTab.Display expression = new ExpressionTabDisplay();
+//        new ExpressionTabPresenter(this.eventBus, expression);
+//        DETAILS_TABS.add(expression);
+//
+//        AnalysisTab.Display analysis = new AnalysisTabDisplay();
+//        new AnalysisTabPresenter(this.eventBus, analysis);
+//        DETAILS_TABS.add(analysis);
 
         DownloadsTab.Display downloads = new DownloadsTabDisplay();
         new DownloadsTabPresenter(this.eventBus, downloads);

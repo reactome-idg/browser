@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.reactome.web.pwp</groupId>
     <artifactId>browser</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>3.7.3</version>
     <name>Pathway Portal</name>
 

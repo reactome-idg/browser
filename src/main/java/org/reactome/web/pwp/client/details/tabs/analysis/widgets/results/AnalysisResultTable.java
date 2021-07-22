@@ -111,7 +111,7 @@ public class AnalysisResultTable extends DataGrid<PathwaySummary> {
             });
 
             this.addColumn(column, header);
-            this.setColumnWidth(column, column.getWidth(), com.google.gwt.dom.client.Style.Unit.PX);
+            this.setColumnWidth(column, column.getWidth()+"px");
         }
 
         this.selectionModel = new SingleSelectionModel<>();

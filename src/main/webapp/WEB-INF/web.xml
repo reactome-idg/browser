@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE web-app
-        PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<!-- <!DOCTYPE web-app -->
+<!--         PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" -->
+<!--         "http://java.sun.com/dtd/web-app_2_3.dtd"> -->
 
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -82,7 +82,7 @@
         <servlet-class>org.reactome.server.utils.proxy.StaticFilesProxyServlet</servlet-class>
         <init-param>
             <param-name>proxyFilePath</param-name>
-            <param-value>/Users/reactome/Reactome/fireworks/static</param-value>
+            <param-value>/Users/brunsont/Documents/reactome_web/fireworks/fireworks_layouts</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -97,7 +97,7 @@
         <servlet-class>org.reactome.server.utils.proxy.StaticFilesProxyServlet</servlet-class>
         <init-param>
             <param-name>proxyFilePath</param-name>
-            <param-value>/Users/reactome/Reactome/diagram/static</param-value>
+            <param-value>/Users/brunsont/Documents/reactome_web/diagram/diagram-converter</param-value>
             <!--<param-value>/Users/reactome/Reactome/diagram/slice</param-value>-->
         </init-param>
     </servlet>
@@ -113,7 +113,7 @@
         <servlet-class>org.reactome.server.utils.proxy.StaticFilesProxyServlet</servlet-class>
         <init-param>
             <param-name>proxyFilePath</param-name>
-            <param-value>/Users/reactome/Reactome/diagram/svg</param-value>
+            <param-value>/Users/brunsont/Documents/reactome_web/diagram/svg</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>

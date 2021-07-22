@@ -58,7 +58,7 @@ public class ToolLauncherDisplay extends Composite implements ToolLauncher.Displ
         // citation button not available for curator tools
         citationFlowPanel.setVisible(!AppConfig.getIsCurator());
 
-        container.add(analysisFlowPanel);
+//        container.add(analysisFlowPanel);
         container.add(citationFlowPanel);
         initWidget(container);
 
